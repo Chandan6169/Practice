@@ -1,0 +1,26 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+th,td,table {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+    border-color: brown;
+}
+th{
+    background-color: darkcyan;
+    color: yellow;
+}
+caption {
+    background-color: rgb(169, 18, 58);
+    color: rgb(215, 220, 82);
+    border-radius: 1rem;
+}
+tr:nth-child(even){
+    background-color: bisque;
+}
+tr:hover{
+    background-color: rgb(107, 231, 231);
+}
